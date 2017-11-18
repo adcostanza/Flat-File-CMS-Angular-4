@@ -2,6 +2,6 @@
 <div *ngFor="let n of name; let i=index" class="row">
   <div class="col">{{n}}</div>
   <div class="col">{{desc[i]}}</div>
-  <div class="col">{{price[i]}}</div>
+  <div class="col">${{price[i]}}</div>
 </div>
 </div>
