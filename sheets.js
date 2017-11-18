@@ -17,7 +17,7 @@ function DatatoJSON() {
 
 function sendData() {
   var query = DatatoJSON();
-    var url = 'http://acostanza.com/php-cms/writeMenu.php?key=rQLFqUYa8LnwcIH0TI83fO4g3bnFWEMfELLOvl';
+    var url = 'http://acostanza.com/php-cms/assets/writeMenu.php?key=rQLFqUYa8LnwcIH0TI83fO4g3bnFWEMfELLOvl';
   var options = {
    'method' : 'post',
    'payload' : query
