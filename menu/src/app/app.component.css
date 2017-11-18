@@ -1,0 +1,15 @@
+.container {
+  width:960px;
+}
+.row {
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+}
+.col {
+  border-style:solid;
+  border-width:1px;
+  border-radius:5px;
+  padding:5px;
+  margin:3px;
+}
